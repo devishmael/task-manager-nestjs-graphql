@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { TasksService } from './tasks.service';
-import { TasksResolver } from './tasks.resolver';
+import { TasksResolver } from './task.resolver';
+import { TasksService } from './task.service';
 
 /**
  * Módulo encargado del dominio de Tareas.
